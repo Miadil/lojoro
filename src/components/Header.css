@@ -1,0 +1,25 @@
+.globalNav {
+  display: flex;
+  justify-content: space-between;
+  background: #242424;
+  align-items: center;
+  .info {
+    color: white;
+  }
+  ul {
+    /* gap: 10px; */
+    margin: 0;
+    padding: 0;
+    list-style: none;
+    color: white;
+    display: flex;
+
+    a {
+      text-decoration: none;
+      color: aliceblue;
+      li {
+        padding: 10px;
+      }
+    }
+  }
+}
